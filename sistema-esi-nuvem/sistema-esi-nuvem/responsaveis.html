@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Responsáveis | Genius Escolar</title><link rel="stylesheet" href="css/style.css"></head>
+<body data-page="responsaveis"><div class="app-layout"><aside class="sidebar" id="sidebar">
+  <a class="brand" href="dashboard.html"><span class="brand-mark">G</span><span>Genius<strong>Escolar</strong></span></a>
+  <div class="side-label">MENU PRINCIPAL</div>
+  <nav class="side-nav">
+    <a href="dashboard.html" data-nav="dashboard"><span>▦</span> Visão geral</a>
+    <a href="alunos.html" data-nav="alunos"><span>♙</span> Alunos</a>
+    <a href="responsaveis.html" data-nav="responsaveis"><span>♧</span> Responsáveis</a>
+    <a href="financeiro.html" data-nav="financeiro"><span>R$</span> Financeiro</a>
+    <a href="notas.html" data-nav="notas"><span>▤</span> Notas e desempenho</a>
+  </nav>
+  <div class="side-label side-label-bottom">CADASTROS</div>
+  <nav class="side-nav"><a href="cadastro-aluno.html" data-nav="cadastro"><span>＋</span> Adicionar aluno</a></nav>
+  <div class="sidebar-bottom"><div class="user-mini"><div class="avatar">AD</div><div><strong>Administrador</strong><small>Gestor escolar</small></div></div><button id="logout" class="logout">↪ Sair do sistema</button></div>
+</aside><main class="main-area"><header class="topbar"><button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">☰</button><div><span class="eyebrow">SISTEMA DE GESTÃO</span><h1>Responsáveis</h1></div><div class="topbar-right"><span class="status-dot"></span><span>Banco de dados na nuvem</span><div class="avatar">AD</div></div></header><section class="page-content"><div class="page-intro"><div><h2>Responsáveis</h2><p>Visualize os contatos vinculados aos alunos.</p></div></div>
+<article class="panel"><div class="toolbar"><div class="search-box"><span>⌕</span><input id="guardian-search" placeholder="Buscar responsável ou aluno..."></div><span class="tag" id="guardian-total">0 responsáveis</span></div><div class="table-scroll"><table><thead><tr><th>Responsável</th><th>Aluno vinculado</th><th>Parentesco</th><th>Telefone</th><th>E-mail</th></tr></thead><tbody id="guardians-table"></tbody></table></div></article>
+</section></main></div><div class="sidebar-overlay" id="sidebar-overlay"></div><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script><script src="js/config.js"></script><script src="js/app.js"></script></body></html>
